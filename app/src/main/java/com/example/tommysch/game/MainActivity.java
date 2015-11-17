@@ -210,7 +210,7 @@ public class MainActivity extends AppCompatActivity {
         msg[0] = PAINT;
         msg[1] = Byte.parseByte(((Integer) gc.x).toString());
         msg[2] = Byte.parseByte(((Integer) gc.y).toString());
-        msg[3] = Byte.parseByte(((Integer) 1).toString());
+        msg[3] = Byte.parseByte(((Integer) 0).toString());
         msg[4] = Byte.parseByte(((Integer) 0).toString());
         msg[5] = Byte.parseByte(((Integer) 0).toString());
 
